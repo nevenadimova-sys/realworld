@@ -6,7 +6,8 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - http:
+    - host: realworld.local
+      http:
         paths:
           - path: /api
             pathType: Prefix

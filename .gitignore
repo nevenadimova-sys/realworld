@@ -50,3 +50,8 @@ __pycache__
 
 # Local db
 dev.db
+
+# Real Kubernetes secret manifests (contain plaintext credentials) - only the
+# *.example.yaml templates are committed; copy them and fill in real values.
+app/k8s/11-db-secret.yaml
+app/k8s/21-backend-secret.yaml
